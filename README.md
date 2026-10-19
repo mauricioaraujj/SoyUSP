@@ -33,23 +33,8 @@
 
 ## 📄 Abstract
 
-Predicting genotype performance across unobserved growing seasons is a relevant component of breeding decision support, although such temporal prediction at a single site should not be interpreted as direct validation across a multi-location target population of environments (TPE).
-
-This study developed and validated a genomic–enviromic factor-analytic framework to predict soybean (*Glycine max* (L.) Merr.) genotype performance in a future, untested season within a fixed experimental location.
-
-A historical soybean trial conducted at a single location across multiple growing seasons was analyzed using factor-analytic mixed models fitted with and without a genomic relationship matrix. Environmental covariates were summarized using alternative temporal windows and used to predict environmental factor loadings for the future validation season.
-
-Partial least squares regression and extreme gradient boosting were compared as prediction models, and the 2024 growing season was used as an independent validation scenario by comparing predicted genotypic values with observed phenotypic estimates.
-
-Incorporating genomic relationships altered the estimated factor-analytic covariance structure and was associated with higher predictive performance under the temporal validation scenarios evaluated here.
-
-The best predictive performance was obtained with extreme gradient boosting using 15-day environmental windows and genomic information, increasing predictive ability by 40% compared with the corresponding non-genomic model.
-
-Under the 2024 validation scenario, the genomic–environmental model recovered 66.7% of the superior genotypes.
-
-Environmental variable-importance analyses further showed that specific covariates within defined temporal windows were the main drivers of factor-loading prediction.
-
-These results demonstrate the potential of integrating genomic relationships, temporal envirotyping, and factor-analytic modeling for temporal generalization across growing seasons at a fixed site, while the transferability of this framework to multi-location TPEs and broader elite breeding populations remains to be established.
+Predicting genotype performance across unobserved growing seasons is a relevant component of breeding decision support, although such temporal prediction at a single site should not be interpreted as direct validation across a multi-location target population of environments (TPE). This study developed and validated a genomic–enviromic factor-analytic framework to predict soybean (*Glycine max* (L.) Merr.) genotype performance in a future, untested season within a fixed experimental location.
+A historical soybean trial conducted at a single location across multiple growing seasons was analyzed using factor-analytic mixed models fitted with and without a genomic relationship matrix. Environmental covariates were summarized using alternative temporal windows and used to predict environmental factor loadings for the future validation season. Partial least squares regression and extreme gradient boosting were compared as prediction models, and the 2024 growing season was used as an independent validation scenario by comparing predicted genotypic values with observed phenotypic estimates. Incorporating genomic relationships altered the estimated factor-analytic covariance structure and was associated with higher predictive performance under the temporal validation scenarios evaluated here. The best predictive performance was obtained with extreme gradient boosting using 15-day environmental windows and genomic information, increasing predictive ability by 40% compared with the corresponding non-genomic model. Under the 2024 validation scenario, the genomic–environmental model recovered 66.7% of the superior genotypes. Environmental variable-importance analyses further showed that specific covariates within defined temporal windows were the main drivers of factor-loading prediction. These results demonstrate the potential of integrating genomic relationships, temporal envirotyping, and factor-analytic modeling for temporal generalization across growing seasons at a fixed site, while the transferability of this framework to multi-location TPEs and broader elite breeding populations remains to be established.
 
 ---
 
