@@ -5,45 +5,29 @@
 
 ## 👥 Authors
 
-**Mauricio S. Araújo**¹*, **Gabriel M. Blasques**², **João S. Pavan**¹, **José T. B. Chagas**¹, **Rafael T. Resende**³˒⁴, **João P. O. Ribeiro**⁵, **Henry T. Nguyen**⁶, **Yunbi Xu**⁷, **Osval A. Montesinos-López**⁸, **José B. Pinheiro**¹*
+**Mauricio S. Araújo**¹* | **Gabriel M. Blasques**² | **João S. Pavan**¹ | **José T. B. Chagas**¹ | **Rafael T. Resende**³˒⁴ | **João P. O. Ribeiro**⁵ | **Henry T. Nguyen**⁶ | **Yunbi Xu**⁷ | **Osval A. Montesinos-López**⁸ | **José B. Pinheiro**¹*
 
-\*Corresponding authors  
+**\* Corresponding authors**
 
-📧 Mauricio S. Araújo: mauricioaraujj@usp.br  
-📧 José B. Pinheiro: jbaldin@usp.br  
+| Name | E-mail |
+|:-----|:-------|
+| Mauricio S. Araújo | mauricioaraujj@usp.br |
+| José B. Pinheiro | jbaldin@usp.br |
 
 ---
 
 ## 🏛️ Affiliations
 
-**¹** Genetics Diversity and Breeding Laboratory, Department of Genetics  
-Luiz de Queiroz College of Agriculture (ESALQ), University of São Paulo (USP)  
-Piracicaba, São Paulo, Brazil  
-
-**²** Agroenergy Laboratory, Department of Agronomy  
-Federal University of Viçosa (UFV)  
-Viçosa, Minas Gerais, Brazil  
-
-**³** Plant Breeding Sector, School of Agronomy  
-Federal University of Goiás (UFG), Samambaia Campus  
-Goiânia, Goiás, Brazil  
-
-**⁴** TheCROP, a Precision-Breeding Startup: Enviromics, Phenomics, and Genomics  
-Goiânia, Goiás, and Sete Lagoas, Minas Gerais, Brazil  
-
-**⁵** GDM Seeds S.A.  
-Lucas do Rio Verde, Mato Grosso, Brazil  
-
-**⁶** Division of Plant Science and Technology  
-University of Missouri  
-Columbia, Missouri 65211, USA  
-
-**⁷** Peking University Institute of Advanced Agricultural Sciences  
-Weifang 261325, Shandong, China  
-
-**⁸** Facultad de Telemática  
-Universidad de Colima  
-28040 Colima, Colima, México  
+| ID | Institution | Location |
+|:--:|:------------|:---------|
+| ¹ | Genetics Diversity and Breeding Laboratory, Department of Genetics, ESALQ/USP | Piracicaba, São Paulo, Brazil |
+| ² | Agroenergy Laboratory, Department of Agronomy, Federal University of Viçosa (UFV) | Viçosa, Minas Gerais, Brazil |
+| ³ | Plant Breeding Sector, School of Agronomy, Federal University of Goiás (UFG) | Goiânia, Goiás, Brazil |
+| ⁴ | TheCROP — Precision-Breeding Startup: Enviromics, Phenomics, and Genomics | Goiânia and Sete Lagoas, Brazil |
+| ⁵ | GDM Seeds S.A. | Lucas do Rio Verde, Mato Grosso, Brazil |
+| ⁶ | Division of Plant Science and Technology, University of Missouri | Columbia, Missouri, USA |
+| ⁷ | Peking University Institute of Advanced Agricultural Sciences | Weifang, Shandong, China |
+| ⁸ | Facultad de Telemática, Universidad de Colima | Colima, México |
 
 ---
 
@@ -57,9 +41,13 @@ A historical soybean trial conducted at a single location across multiple growin
 
 Partial least squares regression and extreme gradient boosting were compared as prediction models, and the 2024 growing season was used as an independent validation scenario by comparing predicted genotypic values with observed phenotypic estimates.
 
-Incorporating genomic relationships altered the estimated factor-analytic covariance structure and was associated with higher predictive performance under the temporal validation scenarios evaluated here. The best predictive performance was obtained with extreme gradient boosting using 15-day environmental windows and genomic information, increasing predictive ability by 40% compared with the corresponding non-genomic model.
+Incorporating genomic relationships altered the estimated factor-analytic covariance structure and was associated with higher predictive performance under the temporal validation scenarios evaluated here.
 
-Under the 2024 validation scenario, the genomic–environmental model recovered 66.7% of the superior genotypes. Environmental variable-importance analyses further showed that specific covariates within defined temporal windows were the main drivers of factor-loading prediction.
+The best predictive performance was obtained with extreme gradient boosting using 15-day environmental windows and genomic information, increasing predictive ability by 40% compared with the corresponding non-genomic model.
+
+Under the 2024 validation scenario, the genomic–environmental model recovered 66.7% of the superior genotypes.
+
+Environmental variable-importance analyses further showed that specific covariates within defined temporal windows were the main drivers of factor-loading prediction.
 
 These results demonstrate the potential of integrating genomic relationships, temporal envirotyping, and factor-analytic modeling for temporal generalization across growing seasons at a fixed site, while the transferability of this framework to multi-location TPEs and broader elite breeding populations remains to be established.
 
@@ -67,20 +55,37 @@ These results demonstrate the potential of integrating genomic relationships, te
 
 ## 🔬 Keywords
 
-Soybean breeding · Genomic prediction · Enviromics · Factor-analytic models · Genotype-by-environment interaction · Temporal prediction · XGBoost
+`Soybean` | `Genomic Prediction` | `Enviromics` | `Factor-Analytic Models` | `G×E Interaction` | `Temporal Prediction` | `XGBoost`
+
+---
+
+## 📊 Key Findings
+
+| Component | Main finding |
+|:----------|:-------------|
+| Prediction framework | Genomic–enviromic factor-analytic modeling |
+| Genomic information | Improved predictive performance |
+| Best machine learning method | Extreme Gradient Boosting (XGBoost) |
+| Best environmental window | 15-day intervals |
+| Predictive ability improvement | 40% relative to the non-genomic model |
+| Independent validation | 2024 growing season |
+| Superior genotype recovery | 66.7% |
+| Validation scope | Temporal prediction at a fixed experimental site |
 
 ---
 
 ## 📚 Manuscript Information
 
-**Journal:** G3: Genes|Genomes|Genetics   
-**Status:** Submitted for peer review  
+| Field | Description |
+|:------|:------------|
+| Journal | G3: Genes\|Genomes\|Genetics |
+| Status | Submitted for peer review |
+| Study species | *Glycine max* (L.) Merr. |
+| Research area | Statistical Genetics and Plant Breeding |
 
 ---
 
 ## 📬 Contact
-
-For questions regarding the dataset, analytical procedures, or reproducibility of the study, please contact:
 
 **Mauricio S. Araújo**  
 Genetics Diversity and Breeding Laboratory  
